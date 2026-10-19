@@ -1,0 +1,24 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# macOS metadata
+.DS_Store
+
+# Downloaded source datasets (large; regenerate or download separately)
+/EuroSAT_RGB/
+/EuroSAT-SAR/
+/EuroSAT_MS/
+
+# Generated submission archive and reference documents
+/submission.zip
+/Assignment 2 ECPE49 July 2026.pdf
+/Robust_Cross-Modal_Remote_Sensing_Image_Retrieval_via_Maximal_Correlation_Augmentation.pdf
+
+# Non-deliverable experiment outputs
+/outputs/ablation_*.csv
+/outputs/checkpoints/best_model_lean.pth
+/outputs/checkpoints/final_model.pthoutputs/checkpoints/best_model.pth

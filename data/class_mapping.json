@@ -1,0 +1,59 @@
+{
+  "class_to_id": {
+    "AnnualCrop": 0,
+    "Forest": 1,
+    "HerbaceousVegetation": 2,
+    "Highway": 3,
+    "Industrial": 4,
+    "Pasture": 5,
+    "PermanentCrop": 6,
+    "Residential": 7,
+    "River": 8,
+    "SeaLake": 9
+  },
+  "id_to_class": {
+    "0": "AnnualCrop",
+    "1": "Forest",
+    "2": "HerbaceousVegetation",
+    "3": "Highway",
+    "4": "Industrial",
+    "5": "Pasture",
+    "6": "PermanentCrop",
+    "7": "Residential",
+    "8": "River",
+    "9": "SeaLake"
+  },
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "random_seed": 42,
+  "train_ratio": 0.7,
+  "val_ratio": 0.15,
+  "test_ratio": 0.15,
+  "counts": {
+    "train": {
+      "total": 37800,
+      "rgb": 18900,
+      "sar": 18900
+    },
+    "val": {
+      "total": 8100,
+      "rgb": 4050,
+      "sar": 4050
+    },
+    "test": {
+      "total": 8100,
+      "rgb": 4050,
+      "sar": 4050
+    }
+  }
+}
