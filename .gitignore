@@ -19,6 +19,12 @@ __pycache__/
 /Robust_Cross-Modal_Remote_Sensing_Image_Retrieval_via_Maximal_Correlation_Augmentation.pdf
 
 # Non-deliverable experiment outputs
-/outputs/ablation_*.csv
+
 /outputs/checkpoints/best_model_lean.pth
 /outputs/checkpoints/final_model.pthoutputs/checkpoints/best_model.pth
+/outputs/checkpoints/*.pth
+
+# Ignore PyTorch model checkpoints
+outputs/checkpoints/*.pth
+
+outputs/checkpoints/*.pth

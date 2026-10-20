@@ -1,0 +1,4 @@
+task,mAP,NDCG,num_queries,num_gallery,fusion_mode,checkpoint
+RGB-to-SAR,0.240314844065549,0.7211885411874327,4050,4050,hgrmc_only,outputs/checkpoints/best_model.pth
+SAR-to-RGB,0.265866246246045,0.7245706232728828,4050,4050,hgrmc_only,outputs/checkpoints/best_model.pth
+Bidirectional Mean,0.253090545155797,0.7228795822301577,8100,8100,hgrmc_only,outputs/checkpoints/best_model.pth
