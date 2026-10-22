@@ -8,7 +8,8 @@ Computes full-gallery Mean Average Precision (mAP), NDCG, and saves results.
 """
 
 import os
-os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
+import tempfile
+os.environ.setdefault("MPLCONFIGDIR", os.path.join(tempfile.gettempdir(), "matplotlib"))
 
 import sys
 import json

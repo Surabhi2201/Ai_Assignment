@@ -12,7 +12,8 @@ Follows Wang et al., IEEE TGRS 2024:
 """
 
 import os
-os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
+import tempfile
+os.environ.setdefault("MPLCONFIGDIR", os.path.join(tempfile.gettempdir(), "matplotlib"))
 
 import sys
 import json
